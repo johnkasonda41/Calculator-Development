@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Subtraction\Subtraction.csproj" />
+    <ProjectReference Include="..\Multiplication\Multiplication.csproj" />
   </ItemGroup>
 
 </Project>
