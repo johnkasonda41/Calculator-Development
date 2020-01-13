@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator-Development", "Calculator-Development\Calculator-Development.csproj", "{291BBF41-BBFB-4138-8015-19BFB5456967}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Addition", "Add\Addition.csproj", "{0F3DDE90-3697-4EE1-A604-F53494668B1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Addition", "Add\Addition.csproj", "{0F3DDE90-3697-4EE1-A604-F53494668B1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdditionTests", "AdditionTests\AdditionTests.csproj", "{334AF0A4-3687-4090-AF94-6FE23139C25B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{0F3DDE90-3697-4EE1-A604-F53494668B1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F3DDE90-3697-4EE1-A604-F53494668B1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F3DDE90-3697-4EE1-A604-F53494668B1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{334AF0A4-3687-4090-AF94-6FE23139C25B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{334AF0A4-3687-4090-AF94-6FE23139C25B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{334AF0A4-3687-4090-AF94-6FE23139C25B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{334AF0A4-3687-4090-AF94-6FE23139C25B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
