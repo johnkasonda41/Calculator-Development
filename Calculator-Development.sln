@@ -1,4 +1,3 @@
-﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
@@ -22,6 +21,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Division", "Division\Division.csproj", "{E60CDE3B-1E86-4DBD-A786-D6E2E6EBE1CA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DivisionTests", "DivisionTests\DivisionTests.csproj", "{4584971B-4450-431E-867F-EAA6449B8480}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubtractionTests2", "SubtractionTests2\SubtractionTests2.csproj", "{2D917B39-DC59-4E29-9917-687DC847FC68}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multiplication", "Multiplication\Multiplication.csproj", "{5C238255-4A9B-4096-93BA-93793B07C0BC}"
 EndProject
