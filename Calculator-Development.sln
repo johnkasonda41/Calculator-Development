@@ -30,7 +30,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Squaring", "Squaring\Squari
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SquaringTests", "SquaringTests\SquaringTests.csproj", "{CB5557B0-5C59-48E6-A797-E436E7E64864}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubtractInterface", "SubtractInterface\SubtractInterface.csproj", "{D1CA3871-16BC-48AD-B4F5-DB2722E22BE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SubtractInterface", "SubtractInterface\SubtractInterface.csproj", "{D1CA3871-16BC-48AD-B4F5-DB2722E22BE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cube", "Cube\Cube.csproj", "{B00A71DD-69C1-4D41-8931-C12520C36EB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CubeTests", "CubeTests\CubeTests.csproj", "{0D8E027F-6964-4174-85E7-BBE699BC1C5B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -98,6 +102,14 @@ Global
 		{D1CA3871-16BC-48AD-B4F5-DB2722E22BE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1CA3871-16BC-48AD-B4F5-DB2722E22BE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1CA3871-16BC-48AD-B4F5-DB2722E22BE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B00A71DD-69C1-4D41-8931-C12520C36EB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B00A71DD-69C1-4D41-8931-C12520C36EB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B00A71DD-69C1-4D41-8931-C12520C36EB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B00A71DD-69C1-4D41-8931-C12520C36EB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D8E027F-6964-4174-85E7-BBE699BC1C5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D8E027F-6964-4174-85E7-BBE699BC1C5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D8E027F-6964-4174-85E7-BBE699BC1C5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D8E027F-6964-4174-85E7-BBE699BC1C5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
