@@ -3,6 +3,7 @@ using Squareroot;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using Helpers;
 
 namespace Squareroot.Tests
 {
@@ -21,7 +22,7 @@ namespace Squareroot.Tests
         [TestMethod()]
         public void SquarerootTest1()
         {
-            Assert.AreEqual(3.29, Squareroot.Squarerooting(b));
+            Assert.AreEqual(3.29, Helpers.Rounding.RoundTwoDecimalPlaces(Squareroot.Squarerooting(b)));
         }
     }
 }
