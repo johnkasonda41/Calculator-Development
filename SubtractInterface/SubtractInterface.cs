@@ -1,23 +1,19 @@
 ﻿using System;
-using Subtraction;
+using SubtractInterface;
 
-namespace Subtract
+namespace SubtractInterface
 {
     public interface ISubtract
     {
-        public dynamic Subtract(dynamic a, dynamic b);
+        public dynamic Difference(dynamic a, dynamic b);
     }
-    public class Subtracts : ISubtract
+    public class Sub : ISubtract
     {
         public dynamic result;
-        public dynamic Subtract(dynamic a, dynamic b) 
+        public dynamic Difference(dynamic a, dynamic b)
         {
             result = Subtraction.Subtraction.Difference(a, b);
             return result;
-
         }
-
-       
-
     }
 }
