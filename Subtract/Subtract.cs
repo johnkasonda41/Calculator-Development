@@ -9,14 +9,11 @@ namespace Subtract
     }
     public class Subtracts : ISubtract
     {
-       
-       
             public dynamic result;
             public dynamic Subtract(dynamic a, dynamic b)
             {
                 result = Subtraction.Subtraction.Difference(a, b);
                 return result;
             }
-        
     }
 }
