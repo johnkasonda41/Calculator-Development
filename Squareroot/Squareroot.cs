@@ -1,4 +1,5 @@
 ﻿using System;
+using Helpers;
 
 namespace Squareroot
 {
@@ -6,11 +7,11 @@ namespace Squareroot
     {
         public static double Squarerooting(int a)
         {
-            return Math.Sqrt(a);
+            return Rounding.RoundTwoDecimalPlaces(Math.Sqrt(a));
         }
         public static double Squarerooting(double a)
         {
-            return (Math.Sqrt(a));
+            return Rounding.RoundTwoDecimalPlaces(Math.Sqrt(a));
         }
     }
 }
