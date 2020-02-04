@@ -3,6 +3,7 @@ using Multiplication;
 
 namespace IMultiply
 {
+
     public interface IMultiply
     {
         public dynamic Multiply(dynamic a, dynamic b);
